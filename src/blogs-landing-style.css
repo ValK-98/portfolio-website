@@ -1,5 +1,5 @@
 .container {
-  background: var(--container-color);
+  background: white;
   border-radius: 2.125rem;
   box-shadow: 2px 2px 4px var(--shadow);
   width: 41.1875rem;
@@ -8,12 +8,14 @@
   flex-direction: column;
   margin: 1.5em 0em;
   transition: 1s ease;
+  color: black;
 }
 
 .container:hover {
   width: 44.1875rem;
   height: 44.1875rem;
   background-color: var(--hover-color);
+  color: white;
 }
 
 .container img {
