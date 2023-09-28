@@ -1,3 +1,5 @@
+/* Main Component */
+
 #contact-me {
 flex-direction: column;
   background: var(--nav-color);
@@ -22,6 +24,8 @@ flex-direction: column;
   height: 4rem;
   margin: 0rem 1rem 0rem 1rem;
 }
+
+/* Phone Sizing */
 
 @media only screen and (max-width: 640px) {
   #contact-me {

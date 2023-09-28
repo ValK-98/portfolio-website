@@ -1,3 +1,5 @@
+/* Main component */
+
 #blog-article {
   background-color: aliceblue;
   width: 60rem;
@@ -14,6 +16,8 @@
   margin: 2em 2em;
 }
 
+/* Tablet Sizing */
+
 @media only screen and (max-width: 1020px) {
   #blog-article {
     width: 45rem;
@@ -25,6 +29,8 @@
   height: 40rem;
   }
 }
+
+/* Phone Sizing */
 
 @media only screen and (max-width: 640px) {
   #blog-article {

@@ -1,3 +1,5 @@
+/* Main Component */
+
 .container {
   flex-direction: column;
   background: white;
@@ -34,6 +36,8 @@ main p {
   width: 100%;
   object-fit: cover;
 }
+
+/* Phone Sizing */
 
 @media only screen and (max-width: 640px) {
   .photo-container {

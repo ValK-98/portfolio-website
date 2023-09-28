@@ -1,3 +1,5 @@
+/* Main Component */
+
 .container {
   background: white;
   border-radius: 2.125rem;
@@ -44,6 +46,8 @@ article {
   flex-direction: column;
   margin-bottom: 20%;
 }
+
+/* Phone Sizing */
 
 @media only screen and (max-width: 640px) {
   .container {

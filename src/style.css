@@ -1,3 +1,6 @@
+/* CSS Reset and variable declaration */
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,6 +28,8 @@
     list-style: none;
   }
   
+  /* Header Component */
+
   #header {
     background-color: var(--header-color);
     width: 100%;
@@ -56,11 +61,15 @@
     color: white;
   }
   
+  /* Main Component */
+
   #main {
     flex-direction: column;
     min-height: 80vh;
   }
   
+  /* Footer Component */
+
   footer {
     flex-direction: column;
     background-color: black;
@@ -80,19 +89,8 @@
     margin-top: 1em;
     color: white;
   }
-/*   
-  @media only screen and (max-width: 1025px) {
-    .header-links {
-        width: 9rem;
-        height: 4.4rem;
-        margin: 0.2rem;
-      }
-    
-      .footer-links {
-        margin: 0.1rem;
-      }
-    } */
 
+  /* Phone Sizing */
   
   @media only screen and (max-width: 640px) {
     body {

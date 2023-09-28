@@ -1,3 +1,5 @@
+/* CSS Reset and variable declaration */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,16 +16,28 @@
   background-color: var(--background-color);
 }
 
+/* CSS Class as flex shorthand. */
+
 .flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Main Component */
+
 #main {
   justify-content: space-evenly;
   min-height: 90vh;
 }
+
+.container {
+  background: var(--container-color);
+  border-radius: 2.125rem;
+  box-shadow: 2px 2px 4px var(--shadow);
+}
+
+/* Intro Sidebar Component */
 
 #photo-container {
   width: 10rem;
@@ -66,11 +80,7 @@
   margin: 0rem 1rem 0rem 1rem;
 }
 
-.container {
-  background: var(--container-color);
-  border-radius: 2.125rem;
-  box-shadow: 2px 2px 4px var(--shadow);
-}
+/* Intro Navigation Component */
 
 #link-container {
   list-style: none;
@@ -81,7 +91,6 @@
   height: 26rem;
   padding: 0.5rem 1.5rem;
 }
-
 
 .section-links {
   width: 17rem;
@@ -108,6 +117,8 @@
   color: white;
 }
 
+/* Footer Component */
+
 footer {
   flex-direction: column;
   background-color: black;
@@ -127,12 +138,16 @@ footer {
   color: white;
 }
 
+/* Tablet Sizing */
+
 @media only screen and (max-width: 1025px) {
   #link-container {
     width: 16.375rem;
     height: 39.375rem;
   }
 }
+
+/* Phone Sizing */
 
 @media only screen and (max-width: 640px) {
   body {
