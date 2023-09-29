@@ -52,10 +52,9 @@ article {
 @media only screen and (max-width: 640px) {
   .container {
     width: 15rem;
-    height: 32rem;
+    height: 16rem;
   }
   article {
-    height: 50%;
     width: 70%;
   }
 }
