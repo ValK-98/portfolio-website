@@ -9,7 +9,16 @@
 ## Purpose
 The purpose of this portfolio website is to provide information about me and my interests as well as highlight my coding skills for potential employers looking for a developer.
 ## Functionality/Features 
+The website was designed to be responsive, thus responsively changes based on the size of the viewport. The HTML was written with accessibility in mind thus semantic HTML was used where possible and `<divs>` were only used sparingly where necessary. The design of the website was inspired by modern minimalism thus most components feature satisfying round edges and gentle border shadows. The colour pallette was intentionally picked to complement the aesthetic to give a calming, clean feel. The buttons are animated with a smooth transition thus giving a consistent user experience. This has been factored in whether the website is viewed on phone, tablet or desktop. The website contain both a header and a footer as this may be necessary for navigation depending on the size of the page. Thus this leads to an easier navigation experience as the user would be able to access any section of the website by going in any direction. There are two places with my contact details - the landing page as well as the "Contact Me" page. This was an intentional decision so if an employer was to visit my page a second time they would immediately have my contact details available upon the landing page loading. 
 
+
+The website consists of:
+* The Home Page - This is the initial landing page and whilst it still shares the same theme, I intentionally styled it slightly differently to be more distinctive. The landing nav bar is animated with a `:hover` property.
+* The Blog - Inside of the page there are several more blogs that can be clicked, upon hovering over them, they have a `:hover` property which will change the colour and slightly increases the size, this leads to a nice user browsing experience. 
+  * You can click on individual blogs and they will lead you into one of the blogs. 
+* About Me - This section includes 3 components which talk about me, my background and my interests. Each box has a photo relevant to the topic.
+* Bio - This includes a button leading to my resume and two components which have my work & study history respectively. 
+* Contact Me - This includes a component which has my first & last name, as well as icon links to Github/LinkedIn pages. 
 ## Sitemap
 ![Sitemap](docs/Sitemap.jpg "Sitemap")
 You can navigate between different pages using either the header or the footer on the page.
