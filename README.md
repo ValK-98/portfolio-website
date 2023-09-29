@@ -15,7 +15,7 @@ The website was designed to be responsive, thus responsively changes based on th
 The website consists of:
 
 
-* The Home Page - This is the initial landing page and whilst it still shares the same theme, I intentionally styled it slightly differently to be more distinctive. The landing nav bar is animated with a `:hover` property.
+* The Home Page - This is the initial landing page and whilst it still shares the same theme, I intentionally styled it slightly differently to be more distinctive. The landing nav bar is animated with a `:hover` property. As the landing page has a navigation component, I emitted a nav bar from it to keep the design minimalistic. 
 
 * The Blog - Inside of the page there are several more blogs that can be clicked, upon hovering over them, they have a `:hover` property which will change the colour and slightly increases the size, this leads to a nice user browsing experience. 
 
